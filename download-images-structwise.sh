@@ -1,4 +1,8 @@
 #!/bin/sh
+
+# instruction -> ./<script-file.sh> <image-file-name> <how-long-to-wait-for-each-image-download>
+# example     -> ./download-images-structwise.sh missing_images.txt 5s
+
 pwd=''
 green=$(tput setaf 2)
 reset=$(tput sgr0)
